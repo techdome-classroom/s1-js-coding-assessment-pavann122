@@ -18,7 +18,7 @@ var isValid = function(s) {
             }
         }else{
             stack.push(char);
-            const topElement=stack.length
+        }
     }
     return stack.length === 0;
     
