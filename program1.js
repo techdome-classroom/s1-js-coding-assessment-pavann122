@@ -29,4 +29,3 @@ console.log(isValid("(]"));
 
 module.exports = { isValid };
 
-
