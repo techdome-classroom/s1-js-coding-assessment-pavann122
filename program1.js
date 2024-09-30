@@ -18,10 +18,7 @@ var isValid = function(s) {
             }
         }else{
             stack.push(char);
-=======
             const topElement=stack.length
->>>>>>> refs/remotes/origin/main
-        }
     }
     return stack.length === 0;
     
