@@ -12,8 +12,6 @@ var romanToInt = function(s) {
         'D': 500,
         'M': 1000
     };
-    
-    // Initialize the total value to 0
     let total = 0;
 
     // Traverse the string from left to right
