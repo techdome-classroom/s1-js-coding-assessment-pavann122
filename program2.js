@@ -23,7 +23,8 @@ var romanToInt = function(s) {
         }
         return total;
     }
-    console.log(romanToInt("III"))
+    console.log(romanToInt("III"));
+    console.log(romanToInt("LVIII"))
 
 
 
