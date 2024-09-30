@@ -10,7 +10,10 @@ var isValid = function(s) {
         '}':'{',
         ']':'['
     };
-    for(let i=0;i<s.length;i++){
+    for(let char of s){
+        if (char in bracketMap){
+            const topElement=
+        }
 
 
     
