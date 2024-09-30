@@ -18,7 +18,7 @@ var romanToInt = function(s) {
         const next = romanMap[s[i + 1]];
         if (next && current <next){
             total -= current;
-            
+            } else {
         }
 
 
