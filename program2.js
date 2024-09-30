@@ -12,6 +12,8 @@ var romanToInt = function(s) {
         'D': 500,
         'M': 1000
     };
+    
+    // Initialize the total value to 0
     let total = 0;
 
     // Traverse the string from left to right
@@ -27,6 +29,8 @@ var romanToInt = function(s) {
     
     return total;
 }
+
+// Example Usage
 console.log(romanToInt("III")); // Output: 3
 console.log(romanToInt("LVIII")); // Output: 58
 console.log(romanToInt("MCMXCIV")); // Output: 1994
