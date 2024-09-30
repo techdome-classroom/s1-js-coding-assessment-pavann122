@@ -23,7 +23,7 @@ var romanToInt = function(s) {
         }
         return total;
     }
-    console.log(roman)
+    console.log(romanToInt(""))
 
 
 
