@@ -12,7 +12,8 @@ var isValid = function(s) {
     };
     for(let char of s){
         if (char in bracketMap){
-            const topElement=stack.length ? stack.pop() :''
+            const topElement=stack.length ? stack.pop() :'#';
+            if(bracketMap)
         }
 
 
